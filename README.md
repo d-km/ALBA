@@ -1,10 +1,13 @@
 # ALBA
 ALBA: Apprenticeship Learning-Based Automaton for Generating Text via Inverse Reinforcement Learning.
 
+## ALBA Article on Qiita (Japanese)
+日本語での説明はQiitaの記事をご覧ください（執筆中）
+
 ## about ALBA
 ALBA is a project for generating text from sampled corpus, via Inverse Reinforcement Learning.
-For IRL method, I use Abbeel(2004)'s method(see below).
-For RL method, I use Sarsa(λ), in expectation of the learning of text as long trajectory.
+
+For IRL method, I use Abbeel(2004)'s method(see below). For RL method, I use Sarsa(λ), in expectation of the learning of text as long trajectory.
 
 ## Usage
 Writing this. See you soon!
