@@ -26,9 +26,17 @@ def DicBuilder(filename):
     
     line = f.readline()
     
+    max_traj_len = 0
+    
+    
     while line:
         line = f.readline()
         words = line.split(" ")
+        
+        w_len = len(words)
+        
+        if w_len > max_traj_len:
+            max_traj_len = w_len
         
         word_list = list(set(words))
         
@@ -47,3 +55,6 @@ def DicBuilder(filename):
         pickle.dump(dictionary, f)
     
     print("Completed dict: in {}.".format(svname))
+    
+    
+    return max_traj_len
